@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 function logCommand (name: string, desc: string) {
 	console.log(`    ${name}`, `=> ${desc}`);
 }

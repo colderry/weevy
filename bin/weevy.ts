@@ -1,4 +1,5 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
+
 import helpCLI from "../cli/help-cli";
 import startCLI from "../cli/start-cli";
 
