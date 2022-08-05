@@ -11,7 +11,7 @@
     "dist"
   ],
   "bin": {
-    "weevy": "./dist/bin/weevy"
+    "weevy": "./dist/bin/weevy.js"
   },
   "repository": {
     "type": "git",
