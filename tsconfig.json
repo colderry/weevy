@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "incremental": true,
+
+    /* Language and Environment */
+    "target": "es2017",
+
+    /* Modules */
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types"],
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "outDir": "./dist",
+    "declarationDir": "./dist/types",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+
+    "allowUnusedLabels": true,
+    "skipLibCheck": true
+  },
+  "include": ["bin", "cli"]
+}
