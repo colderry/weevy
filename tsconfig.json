@@ -35,5 +35,6 @@
     "allowUnusedLabels": true,
     "skipLibCheck": true
   },
-  "include": ["bin", "cli"]
+
+  "include": ["bin", "cli", "source"]
 }
