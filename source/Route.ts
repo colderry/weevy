@@ -44,8 +44,8 @@ export interface RoutingConfig {
 	[key: string]: {
 		active?: boolean;
 		fallback?: RequestHandler;
-		mid?: RequestHandler[] | string[] | RequestHandler;
+		mid?: RequestHandler[] | RequestHandler;
 		endpoint?: RoutingConfig;
-		exec?: RequestHandler[] | string[] | RequestHandler;
+		exec?: RequestHandler[] | RequestHandler;
 	}
 }
